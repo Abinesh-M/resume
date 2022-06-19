@@ -1,0 +1,82 @@
+canvas {
+  display: block;
+  vertical-align: bottom;
+}
+/* web background colour */
+body{
+  background-color: #fc7a00;
+}
+
+#particles-js {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+.center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.image {
+  border-radius: 50%;
+}
+/* Content */
+.header1 {
+  font-family: 'Righteous', cursive;
+  font-size: 2.5vw;
+}
+
+.header2 {
+  font-family: 'Ubuntu Mono', monospace;
+  font-size: 1.2vw;
+}
+
+.header3 {
+  font-family: 'Ubuntu Mono', monospace;
+  font-size: 1.5vw;  
+}
+
+.link1 {
+  font-family: 'Ubuntu Mono', monospace;
+  font-size: 2vw;
+  color: rgb(255, 255, 255);
+  margin: 0px 8px 0px 8px;
+  transition: 0.5s;
+}
+/* Social media icon */
+.link1:hover {
+  color: #fc7a00;
+}
+
+@media screen and (max-width: 785px) {
+  .header1 {
+    font-size: 5vw;
+  }
+  .link1 {
+    font-size: 4vw;
+  }
+}
+
+@media screen and (max-width: 765px) {
+  body {
+    text-align: center;
+  }
+  .header1 {
+    font-size: 9vw;
+  }
+  .header2 {
+    font-size: 2.5vw;
+  }
+  .link1 {
+    font-size: 5vw;
+  }
+}
+
+@media screen and (min-width: 1390px) {
+  .header2 {
+    font-size: 1.2vw;
+  }
+}
